@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack && webpack --config webpack.config.min.js"
   },
+  "license": "Apache-2.0",
   "dependencies": {
     "extract-text-webpack-plugin": "^0.3.8",
     "css-loader": "^0.9.1",
