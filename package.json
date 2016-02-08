@@ -7,7 +7,7 @@
     "build": "webpack && webpack --config webpack.config.min.js"
   },
   "license": "Apache-2.0",
-  "dependencies": {
+  "devDependencies": {
     "extract-text-webpack-plugin": "^0.3.8",
     "css-loader": "^0.9.1",
     "style-loader": "^0.8.3",
