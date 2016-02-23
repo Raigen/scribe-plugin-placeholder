@@ -75,7 +75,7 @@ module.exports = function(placeholder, editorContainer) {
       var leftPadding = 2;
 
       el.className = CLASS_NAME;
-      el.innerText = placeholder;
+      el.textContent = placeholder;
 
       el.style.top = getStyle(scribe.el, 'padding-top') + getStyle(scribe.el, 'border-top-width') + 'px';
       el.style.left = getStyle(scribe.el, 'padding-left') + leftPadding + 'px';
